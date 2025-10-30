@@ -1,0 +1,34 @@
+# AI Arabic Customer Service Agent Evaluation Framework
+# Requirements for testing agents with Gemini, Claude, and Weave/Qwen
+# Requires Python 3.9+
+
+# API clients
+google-generativeai>=0.3.0
+anthropic>=0.18.0
+openai>=1.12.0  # For Weave inference compatibility
+requests>=2.31.0
+
+# Data handling
+pandas>=2.0.0
+numpy>=1.24.0
+pydantic>=2.0.0
+
+# Database
+supabase>=2.0.0  # For Supabase storage
+
+# Results and reporting
+openpyxl>=3.1.0  # For Excel export
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+tenacity>=8.2.0  # For retry logic
+
+# Tracing and Observability
+weave>=0.50.0  # Weights & Biases Weave for LLM tracing
+
+# JSON handling
+ujson>=5.8.0
+
